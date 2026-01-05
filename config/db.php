@@ -1,7 +1,10 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "doctor_appointment_db");
-
-if (!$conn) {
-    die("Database connection failed");
-}
-?>
+$pdo = new PDO(
+    "mysql:host=localhost;dbname=doctor_appointment_db;charset=utf8mb4",
+    "root",
+    "",
+    [
+        PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+        PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+    ]
+);
