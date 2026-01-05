@@ -33,6 +33,36 @@ CareConnect is a web-based Doctor Appointment Booking System built using PHP, My
 Email: admin@gmail.com  
 Password: admin123
 
+---
+
+## Screenshots
+
+### Home Page
+![Home Page](assets/screenshots/home.png)
+
+### User Authentication
+**Login**
+![User Login](assets/screenshots/user-login.png)
+
+**Register**
+![User Register](assets/screenshots/user-register.png)
+
+### Doctors Listing
+![Doctors List](assets/screenshots/doctors-list.png)
+
+### Booked Appointments (User)
+![User Appointments](assets/screenshots/user-appointments.png)
+
+### Admin Login
+![Admin Login](assets/screenshots/admin-login.png)
+
+### Admin Dashboard
+![Admin Dashboard](assets/screenshots/admin-dashboard.png)
+
+### Manage Appointments (Admin)
+![Manage Appointments](assets/screenshots/manage-appointments.png)
+
+
 ## Note
 This project was built as a learning project to understand full-stack PHP development, authentication, and role-based access.
 
